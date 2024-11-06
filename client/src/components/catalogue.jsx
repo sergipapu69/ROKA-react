@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/catalogue.css'
+import '../css/Catalogue.css'
 
 const Catalogue = () => {
   return (
