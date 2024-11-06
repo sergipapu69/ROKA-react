@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.ola{
+  height: 100vh;
+}
+
+.objectParent{
+  background-color: #9c4b4c;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.objectName{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5vh;
+  font-weight: 600;
+}
+
+.objectList{
+  width: 100%;
+  height: auto;
+  background-color: #f1b1ad;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+}

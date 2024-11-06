@@ -1,0 +1,78 @@
+.topBar{
+    background-color: #e29b83;
+    position: sticky;
+    top: -22vh;
+    width: 100%;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    z-index: 10;
+}
+
+.topTopBar{
+    width: 80%;
+    height: 28vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navBarIcons{
+    color: white;
+    position: sticky;
+    top: 2vh;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+}
+.navBarIcons:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.Logo{
+    height: 18vh;
+    width: 20vh;
+    object-fit: contain;
+}
+
+.categoryItem{
+    width: auto;
+    height: 3.5vh;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+}
+
+.categoryItem:hover{
+    transform: scale(1.05);
+    border-bottom: #6F3120 2px solid;
+}
+
+.navBar{
+    position: absolute;
+    bottom: 1vh;
+    width: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navBar a{
+    color: white;
+    font-weight: 500;
+    margin: auto;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 768px) {
+    .categoryItem{
+        display: none;
+    }
+  }
+  

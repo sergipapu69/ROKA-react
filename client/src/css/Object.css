@@ -1,0 +1,32 @@
+.objectContainer{
+    background-color: #fffefe;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin: 5vh;
+}
+
+.productImage{
+    border: solid 4px #9c4b4c;
+    border-radius: 20px;
+    object-fit: contain;
+    width: 35vh;
+}
+
+.combo{
+    color: #ecddd4;
+    margin: 1vh;
+}
+
+.productName{
+    color: #A97E81;
+}
+
+.priceValue{
+    color: #DEA6AC;
+}
